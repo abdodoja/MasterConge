@@ -1,0 +1,122 @@
+@import url(https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Aedit%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048);
+@import url(https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Agroup_add%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: rgb(223, 221, 221);
+}
+
+.MASTER {
+  display: flex;
+  position: relative;
+}
+
+.MASTER .MCONGE{
+  width: 200px;
+  height: 100%;
+  background: #f7db69;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.MASTER .MCONGE h3{
+  background-color: rgb(171, 177, 177);
+  margin-top: 28%;
+}
+
+
+.MASTER .MCONGE ul li{
+  padding: 15px;
+  border-bottom: 1px solid #b7ff11;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(147, 147, 147, 0.05);
+
+}    
+
+.MASTER .MCONGE ul li a{
+  color: #000000;
+  display: block;
+}
+
+
+
+.MASTER .MCONGE ul li:hover{
+  background-color: #07031d;
+}
+    
+.MASTER .MCONGE ul li:hover a{
+  color: rgb(255, 255, 255);
+}
+ 
+
+
+.MASTER .main_m{
+  width: 100%;
+  margin-left: 200px;
+  background: rgb(223, 221, 221);
+
+}
+
+.MASTER .main_m .header{
+  padding: 20px;
+  background: rgb(223, 221, 221);
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+  border-bottom:2px dashed rgb(234, 244, 32);
+}
+
+.MASTER .main_m .info{
+  margin: 20px;
+  color: #545353;
+  line-height: 25px;
+  font-weight: 700;
+
+}
+
+
+.MASTER .main_m .info div{
+  margin-bottom: 20px;
+  background-color: #67656513;
+  width: 90%;
+  height: 90%;
+  margin-left: 9%;
+ 
+
+}
+
+
+.MASTER .main_m .info div .txs
+{
+    width: 50%;
+    height: 50%;
+    margin-left: 10%;
+    text-align:left ;
+   
+}
+
+
+.MASTER .main_m .info div .tab
+{
+    width: 60%;
+    height: 60%;
+    margin-left: 10%;
+    text-align:left ;
+   
+}
+
+
+
+
+
+
